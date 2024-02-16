@@ -601,7 +601,6 @@ iframe {
     .fundal {
         height: 87dvh;
     }
-
 }
 
 @media (max-width:1200px) {
@@ -859,20 +858,34 @@ iframe {
         margin: 0;
     }
 }
+
 @media (max-width:720px) {
     .fundal {
         height: 79dvh;
     }
 }
+
 @media (max-width:600px) {
     .fundal {
         height: 87dvh;
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .fundal {
-        height: 84dvh;
+        height: 76dvh;
+    }
+}
+
+@media (max-width:450px) {
+    .fundal {
+        height: 76dvh;
+    }
+}
+
+@media (max-width:420px) {
+    .fundal {
+        height: 76dvh;
     }
 }
 
@@ -893,12 +906,8 @@ iframe {
         height: 79dvh;
     }
 }
+
 @media (max-width:280px) {
-    .fundal {
-        height: 79dvh;
-    }
-}
-@media (max-width:240px) {
     .fundal {
         height: 79dvh;
     }
