@@ -436,7 +436,7 @@ iframe {
     }
 
     .fundal {
-        height: 89dvh;
+        max-height: 89dvh;
     }
 
     .custom-shape-divider-bottom-1705069762 {
@@ -547,7 +547,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 89dvh;
+        max-height: 89dvh;
     }
 
     .program {
@@ -599,13 +599,13 @@ iframe {
 
 @media (max-width:1300px) {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
     }
 }
 
 @media (max-width:1280px) {
     .fundal {
-        height: 88dvh;
+        max-height: 88dvh;
     }
 }
 
@@ -635,7 +635,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 88.96dvh;
+        max-height: 88.96dvh;
     }
 
     .program {
@@ -680,19 +680,19 @@ iframe {
 
 @media (max-width:1100px) {
     .fundal {
-        height: 86dvh;
+        max-height: 86dvh;
     }
 }
 
 @media (max-width:1050px) {
     .fundal {
-        height: 90dvh;
+        max-height: 90dvh;
     }
 }
 
 @media (max-width:830px) {
     .fundal {
-        height: 90dvh;
+        max-height: 90dvh;
     }
 }
 
@@ -784,7 +784,7 @@ iframe {
 
     .fundal {
         object-fit: inherit;
-        height: 88dvh;
+        max-height: 88dvh;
         margin-top: 110px;
     }
 
@@ -880,80 +880,80 @@ iframe {
 
 @media (max-width:780px) {
     .fundal {
-        height: 88dvh;
+        max-height: 88dvh;
     }
 }
 
 @media (max-width:720px) {
     .fundal {
-        height: 85dvh;
+        max-height: 85dvh;
     }
 }
 
 @media (max-width:600px) {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
     }
 }
 
 @media (max-width:540px) {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
     }
 }
 
 @media (max-width:500px) {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
     }
 }
 
 @media (max-width:450px) {
     .fundal {
-        height: 87dvh;
+        max-height: 87dvh;
     }
 }
 
 @media (max-width:430px) {
     .fundal {
-        height: 85dvh;
+        max-height: 85dvh;
     }
 }
 
 @media (max-width:420px) {
     .fundal {
-        height: 84dvh;
+        max-height: 84dvh;
     }
 }
 
 @media (max-width:380px)
 {
     .fundal {
-        height: 84dvh;
+        max-height: 84dvh;
     }
 }
 
 
 @media (max-width:375px) {
     .fundal {
-        height: 83dvh;
+        max-height: 83dvh;
     }
 }
 
 @media (max-width:360px) {
     .fundal {
-        height: 82dvh;
+        max-height: 82dvh;
     }
 }
 
 @media (max-width:330px) {
     .fundal {
-        height: 82dvh;
+        max-height: 82dvh;
     }
 }
 
 @media (max-width:280px) {
     .fundal {
-        height: 82dvh;
+        max-height: 82dvh;
     }
 }
