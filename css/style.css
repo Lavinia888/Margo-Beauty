@@ -48,7 +48,7 @@ nav a {
     padding-left: 15px;
     font-size: 30px;
     color: var(--secondary);
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 nav a:hover {
@@ -128,9 +128,13 @@ iframe {
     border-radius: 10px;
 }
 
-.acasa-li,
+.logo-li,
 .contacte-li {
     width: 150px;
+}
+
+.servicii-li, .contacte-li {
+    margin-top: 10px;
 }
 
 .copyright {
@@ -164,11 +168,7 @@ iframe {
 
 .logo {
     width: 50px;
-    float: left;
-    margin-right: 50px;
-    margin-left: 5%;
     border-radius: 50%;
-    margin-top: 20px;
 }
 
 .phone {
@@ -253,6 +253,19 @@ iframe {
 
 .div-galerie img {
     width: 33%;
+}
+
+.link:link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:active {
+    color: gray;
+}
+
+.link:visited {
+    color: blue;
 }
 
 #fundal {
@@ -763,7 +776,7 @@ iframe {
     }
 
     .logo {
-        margin-right: 30px;
+        margin-right: 0;
     }
 
     .button {
@@ -788,20 +801,37 @@ iframe {
     }
 
     .contacte-li,
-    .acasa-li,
     .servicii-li {
         border-top: 1px solid white;
         background-color: var(--primary);
         border-radius: 10px;
-        padding: 2px 2px;
+        padding: 11px 2px 0px;
         width: 100px;
         height: 30px;
         line-height: 2px;
     }
 
+    .logo-li {
+        padding: 9px 2px;
+        width: 100px;
+        height: 30px;
+        line-height: 2px;
+        margin-left: -55px;
+    }
+
+    .contacte-li, .servicii-li {
+        margin-left: 40px;
+        margin-bottom: 3px;
+        margin-top: -25px;
+    }
+
+    .contacte-li {
+        margin-top: 1px;
+    }
+
     .contacte-li a,
     .servicii-li a,
-    .acasa-li a {
+    .logo-li a {
         font-size: 22px;
     }
 
@@ -949,7 +979,7 @@ iframe {
 
 @media (max-width:400px) {
     .fundal {
-        height: 78dvh;
+        height: 83dvh;
     }
 }
 
