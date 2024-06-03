@@ -166,9 +166,14 @@ iframe {
     display: none;
 }
 
-.logo {
+.logo1 {
+    display: block;
     width: 50px;
     border-radius: 50%;
+}
+
+.logo2 {
+    display: none;
 }
 
 .phone {
@@ -443,9 +448,15 @@ iframe {
     }
 }
 
+@media (max-width:1650px) {
+    .button {
+        margin-right: 100px;
+    }
+}
+
 @media (max-width:1560px) {
     .button {
-        margin-right: 200px;
+        margin-right: 300px;
     }
 
     .fundal {
@@ -538,6 +549,12 @@ iframe {
     }
 }
 
+@media (max-width:1500px) {
+    .button {
+        margin-right: 300px;
+    }
+}
+
 @media (max-width:1400px) {
     section {
         padding: 0px 5%;
@@ -550,6 +567,7 @@ iframe {
     table {
         margin-left: 0;
     }
+
 
     .button {
         display: none;
@@ -617,13 +635,14 @@ iframe {
 @media (max-width:1300px) {
     .fundal {
         height: 87dvh;
-    }
+    } 
 }
 
 @media (width:1280px) {
     .fundal {
         max-height: 88dvh;
     }
+
 }
 
 @media (max-width:1200px) {
@@ -750,15 +769,21 @@ iframe {
         width: 40%;
         position: absolute;
         left: 20%;
+        padding: 0px;
+        
     }
 
-    ul li ul li {
+        ul li ul li {
         margin-left: 100px;
         width: 150px;
         height: 25px;
         line-height: 25px;
         position: relative;
         bottom: 13px;
+    }
+
+    ul li ul li a {
+        padding: 2px;
     }
 
     header {
@@ -775,7 +800,11 @@ iframe {
         font-size: 16px;
     }
 
-    .logo {
+    .ul-li-coafuri {
+        width: 60px;
+    }
+
+    .logo2 {
         margin-right: 0;
     }
 
@@ -800,6 +829,18 @@ iframe {
         right: 19px;
     }
 
+    .logo2 {
+        display: block;
+        width: 50px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    
+    .logo1 {
+        display: none;
+    }
+
     .contacte-li,
     .servicii-li {
         border-top: 1px solid white;
@@ -812,26 +853,21 @@ iframe {
     }
 
     .logo-li {
-        padding: 9px 2px;
-        width: 100px;
-        height: 30px;
-        line-height: 2px;
-        margin-left: -55px;
+        display: none;
     }
 
     .contacte-li, .servicii-li {
         margin-left: 40px;
         margin-bottom: 3px;
-        margin-top: -25px;
+        margin-top: -50px;
     }
 
     .contacte-li {
-        margin-top: 1px;
+        margin-top: -15px;
     }
 
     .contacte-li a,
-    .servicii-li a,
-    .logo-li a {
+    .servicii-li a {
         font-size: 22px;
     }
 
@@ -906,10 +942,23 @@ iframe {
         padding-top: 110px;
     }
 
+    .certificat {
+        width: 200px;
+        margin-left: 23%;
+    }
+
+    .certificat2 {
+        width: 222px;
+        margin-left: 20.3%;
+        height: 200px;
+    }
+
     .servicii-galerie img {
         width: 100px;
         height: 100px;
     }
+
+
 
     .adrese,
     .iframe {
