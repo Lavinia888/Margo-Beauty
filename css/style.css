@@ -265,12 +265,18 @@ iframe {
     text-decoration: none;
 }
 
-.link:active {
-    color: gray;
+.link:hover {
+    text-decoration: underline 2px red solid;
+    color: red;
 }
 
 .link:visited {
     color: blue;
+}
+
+.link:visited:hover {
+    text-decoration: underline 2px red solid;
+    color: red;
 }
 
 #fundal {
